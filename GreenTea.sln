@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2E9F9FB-7CF8-4989-AC2C-C863669C3D40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenTea.Web", "src\GreenTea.Web\GreenTea.Web.csproj", "{3D472BF2-9671-4E13-88BD-BD86D638A793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenTea.Service", "src\GreenTea.Service\GreenTea.Service.csproj", "{AD0046E9-EEF4-40C9-9F7E-C86424133952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C331D2AD-5824-450C-9761-6CFE87059FBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenTea.Service.Test", "test\GreenTea.Service.Test\GreenTea.Service.Test.csproj", "{55947E66-995D-4EBD-9959-15292EEB61C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenTea.Admin", "src\GreenTea.Admin\GreenTea.Admin.csproj", "{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D472BF2-9671-4E13-88BD-BD86D638A793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D472BF2-9671-4E13-88BD-BD86D638A793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D472BF2-9671-4E13-88BD-BD86D638A793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D472BF2-9671-4E13-88BD-BD86D638A793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0046E9-EEF4-40C9-9F7E-C86424133952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0046E9-EEF4-40C9-9F7E-C86424133952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0046E9-EEF4-40C9-9F7E-C86424133952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0046E9-EEF4-40C9-9F7E-C86424133952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55947E66-995D-4EBD-9959-15292EEB61C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55947E66-995D-4EBD-9959-15292EEB61C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55947E66-995D-4EBD-9959-15292EEB61C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55947E66-995D-4EBD-9959-15292EEB61C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D472BF2-9671-4E13-88BD-BD86D638A793} = {D2E9F9FB-7CF8-4989-AC2C-C863669C3D40}
+		{AD0046E9-EEF4-40C9-9F7E-C86424133952} = {D2E9F9FB-7CF8-4989-AC2C-C863669C3D40}
+		{55947E66-995D-4EBD-9959-15292EEB61C7} = {C331D2AD-5824-450C-9761-6CFE87059FBC}
+		{7E0EEC19-AC42-4F51-9CD5-F0E16BAEEFEA} = {D2E9F9FB-7CF8-4989-AC2C-C863669C3D40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F80C33A-E092-46D9-98EA-AB896A016AA3}
+	EndGlobalSection
+EndGlobal
